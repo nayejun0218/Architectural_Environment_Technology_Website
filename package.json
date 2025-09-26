@@ -1,0 +1,23 @@
+{
+  "name": "architectural-environment-technology-website",
+  "version": "1.0.0",
+  "description": "건축환경기술 회사 홈페이지",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=3000",
+    "dev": "live-server --port=3000 --open",
+    "build": "echo 'Build completed'",
+    "deploy": "echo 'Ready for deployment'"
+  },
+  "keywords": [
+    "architecture",
+    "environment",
+    "technology",
+    "company"
+  ],
+  "author": "건축환경기술",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
